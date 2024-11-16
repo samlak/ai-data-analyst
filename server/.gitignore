@@ -1,4 +1,5 @@
 .betaenv
 __pycache__
 dataset/dataset_purchase.csv
+static
 .env
