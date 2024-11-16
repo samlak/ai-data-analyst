@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.prose table {
+  @apply w-full my-4 border-collapse text-sm;
+}
+
+.prose table thead {
+  @apply bg-gray-50;
+}
+
+.prose table th {
+  @apply px-4 py-2 text-left border border-gray-200 font-semibold text-gray-700;
+}
+
+.prose table td {
+  @apply px-4 py-2 border border-gray-200 text-gray-800;
+}
+
+.prose table tr:nth-child(even) {
+  @apply bg-gray-50;
+}
+
+.prose pre {
+  @apply bg-gray-50 p-4 rounded-lg overflow-x-auto;
+}
+
+.prose {
+  @apply max-w-none;
+}
+
+.table-wrapper {
+  @apply overflow-x-auto max-w-full;
+}
+
+.table-wrapper table {
+  @apply w-full border-collapse my-4;
+}
+
+.table-wrapper th {
+  @apply bg-gray-50 px-4 py-2 text-left border border-gray-200 font-semibold text-gray-700;
+}
+
+.table-wrapper td {
+  @apply px-4 py-2 border border-gray-200 text-gray-800;
+}
+
+.table-wrapper tr:nth-child(even) {
+  @apply bg-gray-50;
+}

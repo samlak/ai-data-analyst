@@ -1,0 +1,8 @@
+matplotlib
+fastapi
+pandas
+pydantic
+openai
+tabulate
+uvicorn
+python-dotenv
