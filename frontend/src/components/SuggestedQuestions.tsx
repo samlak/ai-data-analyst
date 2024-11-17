@@ -7,10 +7,10 @@ interface SuggestedQuestionsProps {
 
 const suggestedQuestions = [
   "What are the top 5 most purchased items?",
-  "Show me the distribution of purchase amounts",
+  "How did spending change from 2012 to 2015?",
   "What's the average purchase amount?",
   "Which day of the week has the most purchases?",
-  "What's the trend of purchases over time?",
+  "What's the trend of purchases over time?"
 ];
 
 export function SuggestedQuestions({ onSelectQuestion }: SuggestedQuestionsProps) {

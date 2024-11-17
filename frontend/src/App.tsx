@@ -10,7 +10,7 @@ function App() {
   const [messages, setMessages] = useState<Message[]>([{
     id: '1',
     type: 'assistant',
-    content: 'Hello! I\'m your data analysis assistant. Ask me questions about your dataset and I\'ll help you analyze it.',
+    content: 'Hello! I\'m your procurement data analysis assistant. Ask me questions about your procument dataset and I\'ll help you analyze it.',
   }]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -79,7 +79,7 @@ function App() {
     setMessages([{
       id: Date.now().toString(),
       type: 'assistant',
-      content: 'Hello! I\'m your data analysis assistant. Ask me questions about your dataset and I\'ll help you analyze it.',
+      content: 'Hello! I\'m your procurement data analysis assistant. Ask me questions about your procument dataset and I\'ll help you analyze it.',
     }]);
     setShowSuggestions(true);
   };
@@ -92,7 +92,7 @@ function App() {
     <div className="flex flex-col h-screen bg-gray-100">
       <header className="bg-white shadow-sm">
         <div className="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 className="text-xl font-semibold text-gray-800">Data Analysis Assistant</h1>
+          <h1 className="text-xl font-semibold text-gray-800">Procurement Data Analyst</h1>
           <button
             onClick={clearChat}
             className="flex items-center gap-2 px-3 py-2 text-sm text-gray-600 hover:text-gray-800 hover:bg-gray-100 rounded-lg transition-colors"
