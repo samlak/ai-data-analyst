@@ -95,14 +95,10 @@ This script reads a CSV file, formats it as JSON, and uploads it to the specifie
 Run the FastAPI server:
 
 ```bash
-uvicorn main:app --host 0.0.0.0 --port 8000
+uvicorn main:app --reload
 ```
 
-Access the API documentation at:
-
-```
-http://localhost:8000/docs
-```
+Access the API documentation at: http://localhost:8000/docs
 
 ---
 
